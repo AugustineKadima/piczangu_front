@@ -6,38 +6,19 @@ export default function ServiceCard(){
         <div>
             <div className="serviceContainer">
                 <div className="contentLeftService">
-                    <h3>Sell photos</h3>
+                    <div className="serviceTint">
+                        <h3>Sell photos</h3>
+                    </div>
                 </div>
                 <div className="contentRightService">
-                    <p>
-                        lorem hfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffw hfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffw
+                    <h3>Start Selling Today</h3>
+                    <p>Create an account and upload your products to sell in as little as five minutes. Sign up and start earning today.
                     </p>
-                    <button>Get Started</button>
+                    <button>Create Account</button>
 
                 </div>
-            </div> <div className="serviceContainer">
-                <div className="contentLeftService">
-                    <h3>Buy photos</h3>
-                </div>
-                <div className="contentRightService">
-                    <p>
-                        lorem hfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffw hfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffw
-                    </p>
-                    <button>Get Started</button>
-
-                </div>
-            </div> <div className="serviceContainer">
-                <div className="contentLeftService">
-                    <h3>Find photographer</h3>
-                </div>
-                <div className="contentRightService">
-                    <p>
-                        lorem hfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffw hfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffwhfgfdfddvfsffw
-                    </p>
-                    <button>Get Started</button>
-
-                </div>
-            </div>
+            </div> 
+     
 
 
         </div>
