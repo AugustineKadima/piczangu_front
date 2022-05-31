@@ -11,3 +11,175 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*Top Nav Landing page */
+.top_nav{
+  background-color: white;
+  height: 15vh;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px gray;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 2;
+}
+
+.navWrapper{
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#logo_img{
+  width: 150px;
+
+}
+
+.navs_container_topNav a{
+  padding: 20px;
+  text-decoration: none;
+  color: #0F75BC;
+}
+
+.navs_container_topNav button {
+  padding: 10px 20px;
+  margin-left: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+#signUp{
+  background-color: #EF6D3E;
+  color: white;
+  border: none;
+}
+
+#login{
+  background-color: white;
+  color: #EF6D3E;
+  border: 1px solid #EF6D3E;
+}
+
+/* Hero section Landing */
+.heroContainer{
+  height: 95vh;
+  width: 100%;
+  background-image: url("./images/bg_landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.opaqueContainer{
+  background-color: black;
+  height: 95vh;
+  width: 100%;
+  opacity: 0.7;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchContainer h2{
+  font-size: 40px;
+  color: white;
+}
+.searchWrapper{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.searchWrapper input{
+  background-color: white;
+  border-radius: 50px;
+  width: 100%;
+  height: 40px;
+  color: black;
+  padding-left: 20px;
+}
+
+#searchIcon{
+  width: 30px;
+}
+.searchButton{
+  width: 50px;
+  height: 50px;
+  background-color: #EF6D3E;
+  border-radius: 50px;
+  box-shadow: 0px 0px 5px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -40px;
+}
+
+/* Content Page Landing */
+.contentOuter{
+  background-color: #EEF8FF;
+}
+.contentOuter .contentWrapperLanding{
+  width: 90%;
+  margin: 0px auto;
+  background-color: white;
+}
+.serviceTitleWrapper{
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Services Landing */
+.servicesHeader{
+ font-weight: 700px;
+}
+
+.serviceContainer{
+  width: 90%;
+  height: 50vh;
+  background-color: #E7E7E7;
+  margin: 20px auto 0px;
+  border-radius: 8px;
+  display: flex;
+}
+
+.contentLeftService, .contentRightService{
+  width: 50%; 
+  height: 100%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.contentLeftService{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.contentRightService{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.contentRightService button{
+  background-color: white;
+  color: #EF6D3E;
+  border: 1px solid #EF6D3E;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 200px;
+}
