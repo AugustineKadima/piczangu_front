@@ -1,6 +1,7 @@
 import React from "react";
 import ServiceCard from "./servicecard";
 import ServiceCardSwapped from "./servicecard_swapped";
+import ServiceCardTwo from "./servicecardtwo";
 
 export default function ContentPage(){
     return (
@@ -12,6 +13,7 @@ export default function ContentPage(){
                 </div>
                 <ServiceCard />
                 <ServiceCardSwapped />
+                <ServiceCardTwo />
 
             </div>
             

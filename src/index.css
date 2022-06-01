@@ -255,3 +255,20 @@ code {
   width: 200px;
   bottom: 20px;
 }
+
+.serviceTwo{
+  background-image: url("./images/photographer.jpg");
+}
+
+/* Customer Testimonials Landing */
+.testimonialsContainer{
+  width: 100%;
+  height: 50vh;
+  background-color: #EF6D3E;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.testimonialsContainer h2{
+ padding: 20px;
+}
