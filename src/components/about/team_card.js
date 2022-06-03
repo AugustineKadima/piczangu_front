@@ -1,0 +1,20 @@
+import React from "react";
+
+export default function TeamCard(){
+    return (
+        <div>
+             <div className="serviceContainer teamcard">
+                <div className="contentLeftService teamcardImg">
+                 
+                </div>
+                <div className="contentRightService">
+                    <h3>Joshua Nyantika</h3>
+                    <h4>CEO</h4>
+                    <p>Create an account and upload your products to sell in as little as five minutes. Sign up and start earning today.
+                    </p>
+
+                </div>
+            </div> 
+        </div>
+    )
+}
