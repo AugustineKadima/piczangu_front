@@ -633,7 +633,6 @@ code {
   box-shadow: 0px 0px 5px gray;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 
 .searchButtonUser{
@@ -664,4 +663,65 @@ code {
   border-radius: 50px;
   box-shadow: 0px 0px 3px;
   margin-right: 10px;
+}
+
+
+/* Photographer List */
+
+.photographer_list_recyclerview{
+  background-color: #EEF8FF;
+  height: auto;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.photographer_card_item{
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px gray;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  height: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.user_image_wrapper_card_item{
+  width: 100px;
+  height: 100px;
+  box-shadow: 0px 0px 3px gray;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.user_content_card_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.location_image_wrapper{
+  width: 24px;
+  height: 24px;
+  box-shadow: 0px 0px 1px gray;
+}
+
+.location_wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.location_wrapper h4{
+  color: gray;
+  margin-left: 10px;
+}
+
+.ratings_container{
+  width: 200px;
+  height: 20px;
+  background-color: red;
 }
