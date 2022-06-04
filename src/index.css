@@ -565,3 +565,103 @@ code {
   margin-top: 10px;
   box-shadow: 0px 0px 5px gray;
 }
+
+/* Find Photographer */
+
+
+
+/* Side Nav User */
+
+.sidenav_user_container{
+  background-color: #0F75BC;
+  color: white;
+  width: 20vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.logo_dashboard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidenav_select{
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.side_nav_option{
+  padding: 10px 20px;
+  background-color: #025087;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+
+.find_photographer_wrapper{
+  background-color: #EEF8FF;
+  width: 80vw;
+  height: 100vh;
+  margin-left: 20vw;
+
+}
+
+.find_photographer_content_container{
+  width: 90%;
+  margin: 0px auto;
+  height: 100vh;
+  background-color: #EEF8FF;
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* Search Component */
+.search_container_user{
+  height: 12vh;
+  margin-top: 20px;
+  width: 100%;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px gray;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.searchButtonUser{
+  background-color: #0F75BC;
+}
+
+.search_input_user input{
+  width: 50%;
+  padding: 0px 20px;
+  margin-left: 20px;
+}
+
+.user_icon_wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.user_icon_wrapper p{
+  color: #0F75BC;
+  margin-right: 20px;
+}
+
+.user_icon_image_container{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 3px;
+  margin-right: 10px;
+}
