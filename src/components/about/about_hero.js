@@ -7,7 +7,7 @@ export default function AboutHero(){
             <div className="about_hero_container">
                 <div className="about_hero_content_wrapper">
                     <div className="about_hero_left">
-
+                        <img src="../images/photographer_about.jpg"/>
                     </div>
 
                     <div className="about_hero_right">

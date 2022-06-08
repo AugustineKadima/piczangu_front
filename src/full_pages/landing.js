@@ -6,11 +6,11 @@ import CustomerTestimonials from "../components/main_landing_page/customer_testi
 import Faqs from "../components/main_landing_page/faqs_landing";
 import Footer from "../components/footer";
 
-export default function Landing(){
+export default function Landing({signUpAndLoginUser}){
 
     return(
         <div>
-            <Navbar />
+            <Navbar signUpAndLoginUser ={signUpAndLoginUser} />
             <Hero />
             <ContentPage />
             <CustomerTestimonials />
