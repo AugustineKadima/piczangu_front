@@ -42,14 +42,14 @@ export default function UserLoginHero(){
             <div className="serviceContainer">
                 <div className="contentLeftService">
                     <div className="serviceTint">
-                        <h3>Sell photos</h3>
+                        <h3>Buy photos</h3>
                     </div>
                 </div>
                 <div className="contentRightService">
-                    <h3>Start Selling Today</h3>
+                    <h3>Get All Your Photos From An Event</h3>
                     <p>Create an account and upload your products to sell in as little as five minutes. Sign up and start earning today.
                     </p>
-                    <button>Create Account</button>
+                    <button>Get Started</button>
 
                 </div>
             </div> 
@@ -57,7 +57,7 @@ export default function UserLoginHero(){
             <div className="serviceContainer">
                
                 <div className="swappedContentLeftService">
-                    <h3>Buy From Our Unlimited Stock</h3>
+                    <h3>Pool Of Skilled Photographers</h3>
                     <p>Find high quality photos taken by your favorite photographer. You can also browse and buy photos for your creative project.
                     </p>
                     <button>Get Started</button>
@@ -65,7 +65,7 @@ export default function UserLoginHero(){
 
                 <div className="swappedContentRightService">
                     <div className="serviceTint">
-                        <h3>Buy photos</h3>
+                        <h3>Find Favorite Photographer</h3>
                     </div>
                 </div>
             </div> 
@@ -73,20 +73,19 @@ export default function UserLoginHero(){
             <div className="serviceContainer">
                 <div className="contentLeftService serviceTwo">
                     <div className="serviceTint">
-                        <h3>Find Photographer</h3>
+                        <h3>Save Photos Online</h3>
                     </div>
                 </div>
                 <div className="contentRightService">
-                    <h3>Find Experienced Photographers</h3>
+                    <h3>Unlimited Space For Your Photos</h3>
                     <p>We have an increasingly experienced group of photographers who can be trusted to deliver excellent photos 
                     </p>
-                    <button>Book Photographer</button>
+                    <button>Get Started</button>
 
                 </div>
             </div>
 
             </div>
-            <Footer />
         </div>
     )
 }
