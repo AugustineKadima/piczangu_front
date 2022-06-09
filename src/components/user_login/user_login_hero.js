@@ -30,6 +30,9 @@ export default function UserLoginHero(){
                         <button>Login</button>
 
                     </div>
+                    <div className="sign_up_instead">
+                        <p>Are you a new user? <NavLink to="/user_sign_up">Sign Up</NavLink></p>
+                    </div>
                 </div>
                 
             </div>
