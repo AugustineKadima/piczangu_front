@@ -5,6 +5,7 @@ import ContentPage from "../components/main_landing_page/content_page";
 import CustomerTestimonials from "../components/main_landing_page/customer_testimonials";
 import Faqs from "../components/main_landing_page/faqs_landing";
 import Footer from "../components/footer";
+import UserSteps from "../components/user_login/user_steps";
 
 export default function Landing({signUpAndLoginUser}){
 
@@ -12,9 +13,9 @@ export default function Landing({signUpAndLoginUser}){
         <div>
             <Navbar signUpAndLoginUser ={signUpAndLoginUser} />
             <Hero />
+            <UserSteps />
             <ContentPage />
             <CustomerTestimonials />
-            <Faqs />
             <Footer />
         </div>
     )

@@ -18,8 +18,6 @@ export default function Navbar({signUpAndLoginUser}){
 
                    <NavLink to="/user_sign_up"><button id="signUp">Sign Up</button></NavLink> 
                    <NavLink to="/user_log_in"><button id="login" >Login</button></NavLink>  
-
-
                 </div>
             </div>
            

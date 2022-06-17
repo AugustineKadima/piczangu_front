@@ -25,6 +25,7 @@ code {
   box-shadow: 0px 0px 5px gray;
   display: flex;
   align-items: center;
+  
   position: fixed;
   z-index: 2;
 }
@@ -43,16 +44,21 @@ code {
   width: 150px;
 
 }
+.navs_container_topNav{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .navs_container_topNav a{
-  padding: 20px;
   text-decoration: none;
   color: #0F75BC;
 }
 
 .navs_container_topNav button {
   padding: 10px 20px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
   border-radius: 8px;
   box-shadow: 0px 0px 5px gray;
 }
@@ -140,6 +146,8 @@ code {
   margin: 0px auto;
   background-color: white;
   padding-bottom: 80px;
+  border: 1px solid #0F75BC;
+  border-radius: 8px;
 }
 .serviceTitleWrapper{
   padding-top: 30px;
@@ -151,6 +159,7 @@ code {
 /* Services Landing */
 #servicesHeader{
  font-weight: 700px;
+ padding: 0px 0px 10px;
 }
 
 .serviceContainer{
@@ -273,7 +282,9 @@ code {
 .testimonialsContainer{
   width: 100%;
   height: auto;
-  background-color: #EF6D3E;
+  background-color: #EEF8FF;
+  padding-top: 40px;
+  padding-bottom: 40px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -285,18 +296,29 @@ code {
   height: auto;
   margin: 0px auto;
 }
-.testimonialsContainer .testimonyWrapper h2{
- padding: 20px;
+
+.testimonial_box{
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonyWrapper h2{
+  padding-bottom: 20px;
+}
+.testimonialsContainer {
+
 }
 
 .testimonial_content{
   height: 250px;
-  width: 300px;
+  width: 30%;
+  border: 1px solid #0F75BC ;
   background-color: white;
   margin-bottom: 20px;
-  margin-right: 20px;
   border-radius: 8px;
-  box-shadow: 0px 0px 5px gray;
+  /* box-shadow: 0px 0px 5px gray; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -314,8 +336,8 @@ code {
 
 .testimonialWrapper{
   display: flex;
-  overflow: scroll;
-  overflow-y: hidden;
+  /* overflow: scroll;
+  overflow-y: hidden; */
   
 }
 
@@ -419,6 +441,10 @@ code {
   height: 100vh;
   display: flex;
   align-items: center;
+  background-image: url("./images/about_us_back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about_hero_content_wrapper{
@@ -427,22 +453,22 @@ code {
   margin: 0px auto;
   padding-top: 60px;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .about_hero_left, .about_hero_right{
-  width: 50%;
-  height: auto;
+  width: 100%;
+  height: 50%;
   margin-top: 80px;
 }
 
-.about_hero_left{
+/* .about_hero_left{
   background-color: white;
   padding: 8px;
   border-radius: 8px;
   box-shadow: 0px 0px 5px;
-}
+} */
 
 .about_hero_left img{
   width: 100%;
@@ -451,7 +477,13 @@ code {
 }
 .about_hero_right{
   color: black;
-  margin-left: 20px;
+  /* margin-left: 20px; */
+  /* text-align: center; */
+  background-color: #EEF8FF;
+  padding: 20px;
+  opacity: 0.9;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px white;
 }
 
 .about_hero_right p{
@@ -477,10 +509,39 @@ code {
 
 .teamcardImg{
   background-image: none;
+  height: 400px;
 }
 
+.contentRightAbout{
+  justify-content: flex-start;
+  padding: 20px 20px 20px 0px;
+}
+
+.contentRightAbout h3 {
+  margin: 0px;
+}
+
+.contentRightAbout h4{
+  color: grey;
+  margin-bottom: 20px;
+}
 .teamcard div p{
   margin: 0px;
+  
+}
+
+.contentRightSwappedAbout{
+  justify-content: flex-start;
+  padding: 20px 0px 20px 20px;
+}
+
+.contentRightSwappedAbout h3{
+  margin: 0px;
+}
+
+.contentRightSwappedAbout h4{
+  color: grey;
+  margin-bottom: 20px;
 }
 
 
@@ -544,18 +605,20 @@ code {
   padding-top: 40px;
   padding-bottom: 40px;
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 .user_sign_up_container{
   width: 50%;
-  height: auto;
+  height: 90%;
   background-color: white;
   margin: 0px auto;
   box-shadow: 0px 0px 5px gray;
   border-radius: 8px;
   padding-top: 20px;
   padding-bottom: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .signup_text_and_logo{
@@ -580,6 +643,7 @@ code {
 .signup_label_input input{
   padding: 10px;
   border-radius: 8px;
+  border: 1px solid gray;
 }
 
 .user_sign_up_container h6{
@@ -879,11 +943,13 @@ code {
   width: 100%;
   height: auto;
   padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .user_steps_wrapper{
   border: 1px solid #0F75BC;
   width: 90%;
+  background-color: white;
   border-radius: 8px;
   height: auto;
   margin: 0px auto;
@@ -893,6 +959,7 @@ code {
 .all_steps{
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .user_steps_wrapper h2{
@@ -909,6 +976,7 @@ code {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 20px;
 
 }
 
@@ -916,8 +984,8 @@ code {
   width: 240px;
   height: 240px;
   border-radius: 8px;
-  background-color: black;
-  opacity: 0.7;
+  background-color: #EF6D3E;
+  opacity: 0.8;
   display: flex;
   flex-direction: column;
 }
@@ -957,4 +1025,65 @@ code {
 .single_step_container_2{
   background-image: url("./images/bg_step_2.jpg");
 
+}
+
+.dummy_row_1, .dummy_row_2{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.dummy_row_1 div, .dummy_row_2 div{
+  width: 50%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.dum1{
+  background-image: url("./images/select_1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+.dum1 p{
+  color: white;
+}
+
+.dum2{
+  background-image: url("./images/select_2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;}
+
+.dum3{
+  background-image: url("./images/select_3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dum4{
+  background-image: url("./images/select_4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.single_step_black{
+  background-color: black;
+  opacity: 1;
+}
+
+.single_step_container_4{
+  background-image: url("./images/pay.jpg");
+}
+
+.opaque_4{
+  background-color: none;
 }

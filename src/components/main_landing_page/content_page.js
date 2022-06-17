@@ -1,7 +1,7 @@
 import React from "react";
-import ServiceCard from "./servicecard";
 import ServiceCardSwapped from "./servicecard_swapped";
 import ServiceCardTwo from "./servicecardtwo";
+
 
 export default function ContentPage(){
     return (
@@ -11,9 +11,9 @@ export default function ContentPage(){
                 <div className="serviceTitleWrapper">
                     <h2 id="servicesHeader">Our Services</h2>
                 </div>
-                <ServiceCard />
-                <ServiceCardSwapped />
                 <ServiceCardTwo />
+
+                <ServiceCardSwapped />
 
             </div>
             

@@ -6,9 +6,9 @@ export default function AboutHero(){
         <div>
             <div className="about_hero_container">
                 <div className="about_hero_content_wrapper">
-                    <div className="about_hero_left">
+                    {/* <div className="about_hero_left">
                         <img src="../images/photographer_about.jpg"/>
-                    </div>
+                    </div> */}
 
                     <div className="about_hero_right">
                         <h1>About Us</h1>

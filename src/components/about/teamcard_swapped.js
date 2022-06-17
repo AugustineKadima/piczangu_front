@@ -5,10 +5,10 @@ export default function TeamCardSwapped(){
         <div>
             <div className="serviceContainer teamcard">
                
-                <div className="contentRightService swappedContentLeftService">
+                <div className="contentRightService swappedContentLeftService contentRightSwappedAbout">
                     <h3>Samuel Kadima</h3>
                     <h4>CTO</h4>
-                    <p>Create an account and upload your products to sell in as little as five minutes. Sign up and start earning today.
+                    <p>Create an account and upload your products to sell in as little as five minutes. Sign up and start earning today. Create an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell inCreate an account and upload your products to sell in
                     </p>
                 </div>
                 
