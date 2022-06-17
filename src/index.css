@@ -346,13 +346,15 @@ code {
   width: 100%;
   background-color: #EEF8FF;
   height: auto;
-  padding-top: 40px;
-  padding-bottom: 80px;
+  padding-top: 140px;
+  padding-bottom: 20px;
 }
 
 .faqs_wrapper h2{
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 20px;
+  width: 90%;
+  margin: 0px auto;
 }
 .faq_container{
   width: 90%;
@@ -366,6 +368,7 @@ code {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+
 }
 
 .faqDropDown{
@@ -547,7 +550,10 @@ code {
 
 /* FAQs */
 .faqs_wrapper_faqs_page{
-  padding-top: 20vh;
+  padding-top: 0px;
+  margin: 0px;
+  padding-bottom: 40px;
+
 }
 
 .faqs_wrapper_faqs_page h2{
@@ -562,9 +568,10 @@ code {
   margin: 0px auto;
   height: auto;
   padding-bottom: 40px;
-  padding-top: 20pxx;
+  /* padding-top: 20px; */
   border-radius: 8px;
   box-shadow: 0px 0px 5px gray;
+
 }
 .faq_form_container h2{
   padding-top: 20px;

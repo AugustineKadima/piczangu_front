@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function Faqs(){
+export default function FaqsHelp(){
     return (
         <div className="faqs_wrapper">
             <h2>Frequently Asked Questions</h2>
