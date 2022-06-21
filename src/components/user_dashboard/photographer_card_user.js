@@ -1,9 +1,11 @@
 import React from "react";
 import { GoLocation } from 'react-icons/go';
+import { NavLink } from "react-router-dom";
 
 export default function PhotographerCardUser(){
     return (
         <div>
+            <NavLink to="/photographers/details">
             <div className="photographer_card_item">
                 <div className="user_image_wrapper_card_item">
 
@@ -19,6 +21,7 @@ export default function PhotographerCardUser(){
                     <div className="ratings_container"></div>
                 </div>
             </div>
+            </NavLink>
    
         </div>
     )

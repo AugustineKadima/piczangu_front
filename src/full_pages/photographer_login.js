@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Footer from "../components/footer";
 
 
 export default function PhotographerLogin(){
@@ -11,7 +12,7 @@ export default function PhotographerLogin(){
                     <div className="login_form">
 
                         <div className="signup_text_and_logo">
-                            <h2>Login</h2>
+                            <h2>Photographer Login</h2>
                             <NavLink to="/"><img  id="logo_img_2" alt="logo" src="../images/logo1.png"></img></NavLink>
                         </div>
 
@@ -30,7 +31,7 @@ export default function PhotographerLogin(){
 
                     </div>
                     <div className="sign_up_instead">
-                        <p>Are you a new user? <NavLink to="/user_sign_up">Sign Up</NavLink></p>
+                        <p>Are you a new user? <NavLink to="/photographer_sign_up">Sign Up</NavLink></p>
                     </div>
                 </div>
                 
@@ -41,11 +42,11 @@ export default function PhotographerLogin(){
             <div className="serviceContainer">
                 <div className="contentLeftService">
                     <div className="serviceTint">
-                        <h3>Buy photos</h3>
+                        <h3>Sell photos</h3>
                     </div>
                 </div>
                 <div className="contentRightService">
-                    <h3>Get All Your Photos From An Event</h3>
+                    <h3>Sell Photos</h3>
                     <p>Create an account and upload your products to sell in as little as five minutes. Sign up and start earning today.
                     </p>
                     <button>Get Started</button>
@@ -56,7 +57,7 @@ export default function PhotographerLogin(){
             <div className="serviceContainer">
                
                 <div className="swappedContentLeftService">
-                    <h3>Pool Of Skilled Photographers</h3>
+                    <h3>Create Photographer Profiles</h3>
                     <p>Find high quality photos taken by your favorite photographer. You can also browse and buy photos for your creative project.
                     </p>
                     <button>Get Started</button>
@@ -64,7 +65,7 @@ export default function PhotographerLogin(){
 
                 <div className="swappedContentRightService">
                     <div className="serviceTint">
-                        <h3>Find Favorite Photographer</h3>
+                        <h3>Photographer Profiles</h3>
                     </div>
                 </div>
             </div> 
@@ -85,6 +86,8 @@ export default function PhotographerLogin(){
             </div>
 
             </div>
+
+            <Footer />
         </div>
     )
 }

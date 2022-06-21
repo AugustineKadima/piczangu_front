@@ -38,8 +38,8 @@ export default function Footer(){
 
                             <div className="footer_item">
                                 <h3>Photographer</h3>
-                                <a href="#">Sign Up</a>
-                                <a href="#">Login</a>
+                                <NavLink to="/photographer_sign_up">Sign Up</NavLink>
+                                <NavLink to="/photographer_login">Login</NavLink>
                             </div>
 
                             <div className="footer_item">
