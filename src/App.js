@@ -10,6 +10,7 @@ import FindPhotographer from './components/user_dashboard/find_photographer';
 import PhotographerLogin from './full_pages/photographer_login';
 import PhotographerSignUp from './full_pages/photographer_sign_up';
 import FindPhotographerDetails from './components/user_dashboard/find_photographer_details';
+import PhotographerPortfolioView from './components/user_dashboard/photographer_portfolio_view';
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
         <Route path="/photographer_login" element={<PhotographerLogin />} />
         <Route path="/photographer_sign_up" element={<PhotographerSignUp />} />
         <Route path="/photographers/details" element={<FindPhotographerDetails />} />
+        <Route path="/photographer/portfolio" element={<PhotographerPortfolioView />} />
 
         
       </Routes>
