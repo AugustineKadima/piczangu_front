@@ -810,7 +810,7 @@ code {
 }
 
 .photographer_list_recyclerview{
-  /* background-color: red; */
+  background-color: white;
   height: auto;
   width: 100%;
   border-radius: 8px;
@@ -1331,4 +1331,54 @@ form .signup_label_input button{
 
 .signup_text_and_logo h2{
   color: #0F75BC;
+}
+
+/* User Events */
+.events_user_wrapper{
+  width: 100%;
+  height: auto;
+  background-color: #EEF8FF;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.no_events_wrapper{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 8px;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no_events_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.no_events_content button{
+  width: 200px;
+  border: 1px solid #EF6D3E;
+  color: #EF6D3E;
+  box-shadow: 0px 0px 3px gray;
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: white;
+}
+
+.events_list_user{
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
 }
