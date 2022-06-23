@@ -687,6 +687,7 @@ code {
 /* Find Photographer */
 .find_photographer_container{
   display: flex;
+  background-color: red;
 }
 
 
@@ -736,6 +737,7 @@ code {
   width: 80%;
   height: auto;
   margin-left: 20%;
+  min-height: 100vh;
 }
 
 .find_photographer_content_container{
@@ -804,51 +806,52 @@ code {
 
 
 /* Photographer List */
+.find_photographer_wrapper{
+}
 
 .photographer_list_recyclerview{
-  background-color: #EEF8FF;
+  /* background-color: red; */
   height: auto;
   width: 100%;
   border-radius: 8px;
   margin-top: 20px;
   margin-bottom: 20px;
-  box-sizing: border-box;
+  box-shadow: 0px 0px 5px gray;
 }
 
 .photographer_card_item{
-  box-sizing: border-box;
-  box-shadow: 0px 0px 5px gray;
   width: 100%;
   height: auto;
   border-radius: 8px;
   height: auto;
-  padding: 20px;
+  /* padding: 20px; */
   display: flex;
+  
   
 }
 
 .user_image_wrapper_card_item{
   width: 100px;
   height: 100px;
-  box-shadow: 0px 0px 3px gray;
+  /* box-shadow: 0px 0px 3px gray; */
   border-radius: 8px;
   margin-right: 20px;
 }
 
-.user_content_card_item{
+/* .user_content_card_item{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 0px;
   
-}
+} */
 
 .user_content_card_item h2{
   margin: 0px;
 }
 .location_image_wrapper{
 
-  box-shadow: 0px 0px 1px gray;
+  /* box-shadow: 0px 0px 1px gray; */
   margin: 0px;
 
 }
@@ -870,7 +873,7 @@ code {
 .ratings_container{
   width: 200px;
   height: 20px;
-  background-color: red;
+  background-color: yellow;
 }
 
 
@@ -1272,4 +1275,22 @@ code {
   border-radius: 8px;
   width: 100px;
   margin-top: 40px;
+}
+
+/* User Profile */
+#para{
+  margin: 0px;
+}
+
+.photographer_info_container h3{
+  color: #0F75BC;
+}
+
+#btn_edit_user_profile{
+  border: 1px solid #EF6D3E;
+  color: #EF6D3E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }

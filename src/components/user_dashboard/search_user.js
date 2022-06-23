@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 export default function SearchUser(){
     return (
@@ -11,12 +12,18 @@ export default function SearchUser(){
                     </div>
                 </div>
 
-                <div className="user_icon_wrapper">
-                    <div className="user_icon_image_container">
-                        
+                
+
+                    <div className="user_icon_wrapper">
+                        <NavLink to="/user/profile">
+                            <div className="user_icon_image_container">
+                                
+                            </div>
+                        </NavLink>
+                        <p>User name</p>
                     </div>
-                    <p>User name</p>
-                </div>
+
+              
             </div>
         </div>
     )
