@@ -819,15 +819,16 @@ code {
   box-shadow: 0px 0px 5px gray;
 }
 
+#photographer_details_link{
+  text-decoration: none;
+}
 .photographer_card_item{
   width: 100%;
   height: auto;
   border-radius: 8px;
   height: auto;
-  /* padding: 20px; */
+  padding: 20px;
   display: flex;
-  
-  
 }
 
 .user_image_wrapper_card_item{
@@ -836,18 +837,23 @@ code {
   /* box-shadow: 0px 0px 3px gray; */
   border-radius: 8px;
   margin-right: 20px;
+  background-color: black;  
+
 }
 
-/* .user_content_card_item{
+.user_content_card_item{
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   padding: 0px;
+  color: black;
+  width: 100%;
   
-} */
+}
 
 .user_content_card_item h2{
   margin: 0px;
+  color: #0F75BC;
 }
 .location_image_wrapper{
 
@@ -858,14 +864,14 @@ code {
 
 .location_wrapper{
   padding: 0px;
-  margin: 0px;
+  margin: 5px 0px 0px;
   display: flex;
   align-items: center;
 }
 
 .location_wrapper h4{
   color: gray;
-  margin: 0px;
+  margin: 0px 0px 20px;
   display: flex;
   justify-content: center;
 }
@@ -874,6 +880,7 @@ code {
   width: 200px;
   height: 20px;
   background-color: yellow;
+  margin: 10px 0px 0px;
 }
 
 
@@ -1293,4 +1300,35 @@ code {
   justify-content: center;
   align-items: center;
   
+}
+
+.edit_sign_up{
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_sign_up div{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+form .signup_label_input button{
+  width: 100px;
+  padding: 10px 20px;
+  border: 1px solid #0F75BC;
+  color: #0F75BC;
+  box-shadow: 0px 0px 5px gray;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.signup_text_and_logo #backbtn{
+  display: flex;
+  align-items: center;
+
+}
+
+.signup_text_and_logo h2{
+  color: #0F75BC;
 }

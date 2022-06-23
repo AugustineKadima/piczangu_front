@@ -1,5 +1,6 @@
 import React from "react";
 import SearchUser from "./search_user";
+import { NavLink } from "react-router-dom";
 
 export default function UserProfileContent(){
     return (
@@ -24,8 +25,9 @@ export default function UserProfileContent(){
 
 
                   
-                
-                    <button id="btn_edit_user_profile">Edit</button> 
+                    <NavLink to="/user/profile/edit">
+                        <button id="btn_edit_user_profile">Edit</button> 
+                    </NavLink>
 
                 </div>
 

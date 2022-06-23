@@ -12,6 +12,7 @@ import PhotographerSignUp from './full_pages/photographer_sign_up';
 import FindPhotographerDetails from './components/user_dashboard/find_photographer_details';
 import PhotographerPortfolioView from './components/user_dashboard/photographer_portfolio_view';
 import UserProfile from './components/user_dashboard/user_profile';
+import EditUserProfile from './components/user_dashboard/edit_user_profile';
 
 function App() {
   
@@ -30,6 +31,7 @@ function App() {
         <Route path="/photographers/details" element={<FindPhotographerDetails />} />
         <Route path="/photographer/portfolio" element={<PhotographerPortfolioView />} />
         <Route path="/user/profile" element={<UserProfile />} />
+        <Route path="/user/profile/edit" element={<EditUserProfile />} />
 
         
       </Routes>
