@@ -2,18 +2,21 @@ import React from "react";
 import SideNavUser from "../side_nav_user";
 import SearchUser from "./search_user";
 import { BsShareFill } from "react-icons/bs";
+import { NavLink } from "react-router-dom";
 
 export default function EventsHome(){
     
-    let list = false;
+    let list = true;
 
     const eventList = () =>{
         if(list){
-            return(    
-            <div className="events_list_user">
-                <p>EventCodeffdw</p>
-                <p><BsShareFill/></p>
-            </div>
+            return( 
+            <NavLink to="/user/events/details">
+                <div className="events_list_user">
+                    <p>EventCodeffdw</p>
+                    <p><BsShareFill/></p>
+                </div>
+            </NavLink> 
 
 )
         }else{

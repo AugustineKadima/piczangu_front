@@ -1382,3 +1382,40 @@ form .signup_label_input button{
   align-items: center;
 
 }
+
+.events_user_wrapper a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Event Details */
+.top_event_nav{
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  box-shadow: none;
+  padding: 40px 20px 0px 0px;
+}
+
+.top_event_nav #event_para{
+  margin-left: 20px;
+  border-bottom: 3px solid #EF6D3E;
+  color: black;
+  padding-bottom: 5px;
+}
+
+.wrapper_events{
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+}
+
+.download_share_event_user{
+  display: flex;
+  justify-content: space-between;
+}
+
+.download_share_event_user p{
+  display: flex;
+  align-items: center;
+}
