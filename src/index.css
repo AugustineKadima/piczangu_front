@@ -722,14 +722,29 @@ code {
 .sidenav_select a{
   color: white;
   text-decoration: none;
+  padding: 10px 20px;
+  /* background-color: #025087; */
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 100%;
 }
 
-.side_nav_option{
+
+/* .side_nav_option{
   padding: 10px 20px;
   background-color: #025087;
   margin-bottom: 10px;
   border-radius: 8px;
+} */
+
+.sidenav_select a.active{
+  /* background-color: white; */
+  font-weight: bold; 
+  font-size: 18px; 
 }
+
+
+
 
 
 .find_photographer_wrapper{
@@ -1418,4 +1433,30 @@ form .signup_label_input button{
 .download_share_event_user p{
   display: flex;
   align-items: center;
+}
+
+
+/* Event Delails Single Photo */
+#event_para_two{
+  margin-left: 20px;
+}
+
+.top_event_nav a{
+  text-decoration: none;
+  color: gray;
+}
+
+.single_event_photo{
+  width: 100%;
+  height: auto;
+}
+
+.download_share_event_user div{
+  display: flex;
+  flex-direction: row;
+}
+
+.download_share_event_user div #del{
+  margin-right: 20px;
+  color: gray;
 }

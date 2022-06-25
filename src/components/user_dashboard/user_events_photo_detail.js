@@ -1,15 +1,16 @@
 import React from "react";
-import SideNavUser from "../side_nav_user";
+import { BsFillCloudDownloadFill, BsShareFill } from "react-icons/bs";
 import SearchUser from "./search_user";
-import { BsShareFill, BsFillCloudDownloadFill } from "react-icons/bs"
+import SideNavUser from "../side_nav_user";
 import { NavLink } from "react-router-dom";
 import { MdDelete } from "react-icons/md"
 
-export default function EventDetailsUser(){
+
+
+export default function UserEventsPhotoDetail(){
     return (
         <div>
-
-            <div className="find_photographer_container">
+                <div className="find_photographer_container">
                 <SideNavUser />
                 <div className="find_photographer_wrapper">
                     <div className="find_photographer_content_container">
@@ -17,7 +18,11 @@ export default function EventDetailsUser(){
 
                         <div className="top_event_nav">
                             <NavLink to="/user/events"><h4>All Events</h4></NavLink>
-                            <h4 id="event_para">Event Detaits</h4>
+                            <NavLink to="/user/events/details"><h4 id="event_para_two">Event Detaits</h4></NavLink>
+                            <h4 id="event_para">Photo</h4>
+                           
+
+                            
 
                         </div>
                         <div className="photographer_list_recyclerview">
@@ -30,18 +35,17 @@ export default function EventDetailsUser(){
                                     <div>
                                         <p id="del"><MdDelete/></p>
                                         <p><BsShareFill /></p>
-                                    </div>                                </div>
+                                    </div>
+                                </div>
 
 
 
                                 <div className="portfolio_view_section">
                                 <div className="section_photos">
 
-                                    <NavLink to="/user/events/details/photo">
-                                        <div className="portfolio_photo_holder">
+                                        <div className="portfolio_photo_holder single_event_photo">
                                             <img  src="#" alt="p"/>
                                         </div>
-                                    </NavLink>
                                     
 
                                 </div>
@@ -57,7 +61,6 @@ export default function EventDetailsUser(){
                 </div>
 
             </div>
-
         </div>
     )
 }

@@ -16,7 +16,7 @@ export default function SideNavUser(){
                     </div>
 
                     <div className="sidenav_select">
-                        <NavLink to="/"><div className="side_nav_option">Home</div> </NavLink>
+                        <NavLink to="/"><div className="side_nav_option active">Home</div> </NavLink>
                         <NavLink to="/user/events"><div className="side_nav_option">Events</div></NavLink>
                         <NavLink to="/photographers"> <div className="side_nav_option">Find Photographer</div></NavLink>
 

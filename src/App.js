@@ -15,6 +15,7 @@ import UserProfile from './components/user_dashboard/user_profile';
 import EditUserProfile from './components/user_dashboard/edit_user_profile';
 import EventsHome from './components/user_dashboard/user_events';
 import EventDetailsUser from './components/user_dashboard/user_event_details';
+import UserEventsPhotoDetail from './components/user_dashboard/user_events_photo_detail';
 
 function App() {
   
@@ -36,6 +37,7 @@ function App() {
         <Route path="/user/profile/edit" element={<EditUserProfile />} />
         <Route path="/user/events" element={<EventsHome/>} />
         <Route path="/user/events/details" element={<EventDetailsUser />} />
+        <Route path="/user/events/details/photo" element={<UserEventsPhotoDetail />} />
 
         
       </Routes>
