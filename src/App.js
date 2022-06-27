@@ -16,6 +16,8 @@ import EditUserProfile from './components/user_dashboard/edit_user_profile';
 import EventsHome from './components/user_dashboard/user_events';
 import EventDetailsUser from './components/user_dashboard/user_event_details';
 import UserEventsPhotoDetail from './components/user_dashboard/user_events_photo_detail';
+import PhotographerMainPage from './components/photographer_dashboard/photographer_main_page';
+import PhotographerDashboard from './components/photographer_dashboard/photographer_dashboard';
 
 function App() {
   
@@ -29,7 +31,7 @@ function App() {
         <Route path="/photographers" element={<FindPhotographer />} />
         <Route path="/user_log_in" element={<UserLogin />} />
         <Route path="/user_sign_up" element={<UserSignUp />} />
-        <Route path="/photographer_login" element={<PhotographerLogin />} />
+        <Route path="/photographer_login" element={<PhotographerMainPage />} />
         <Route path="/photographer_sign_up" element={<PhotographerSignUp />} />
         <Route path="/photographers/details" element={<FindPhotographerDetails />} />
         <Route path="/photographer/portfolio" element={<PhotographerPortfolioView />} />
@@ -38,6 +40,8 @@ function App() {
         <Route path="/user/events" element={<EventsHome/>} />
         <Route path="/user/events/details" element={<EventDetailsUser />} />
         <Route path="/user/events/details/photo" element={<UserEventsPhotoDetail />} />
+        <Route path="/photographer/home" element={<PhotographerMainPage/>} />
+        <Route path="/photographer/dashboard" element={<PhotographerDashboard/>} />
 
         
       </Routes>

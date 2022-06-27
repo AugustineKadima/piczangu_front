@@ -7,6 +7,7 @@ import PhotographerCardUser from "./photographer_card_user";
 export default function FindPhotographer(){
     return (
         <div>
+            
             {/* <div className="find_photographer_container">
                 <SideNavUser />
                 

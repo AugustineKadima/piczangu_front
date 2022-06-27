@@ -4,36 +4,58 @@ import Footer from "../components/footer";
 
 
 export default function PhotographerLogin(){
+
+    let isLogged =  true
+
+    function loadAlternativeHero(){
+        if(isLogged){
+            return(
+                <div className="opaqueLogin opaque_login_logged">
+                <div className="alternative_phootographer_home">
+                    <h1>Upload photos of your events, share with your clients and get booked for photography jobs</h1>
+                    <NavLink to="/photographer/dashboard"><button>Go To Dashboard</button></NavLink>
+                </div>
+                </div>
+            )
+        }else{
+            return(
+                <div className="opaqueLogin">
+
+                <div className="login_form">
+
+                    <div className="signup_text_and_logo">
+                        <h2>Photographer Login</h2>
+                        <NavLink to="/"><img  id="logo_img_2" alt="logo" src="../images/logo1.png"></img></NavLink>
+                    </div>
+
+                    <div className="signup_label_input">
+                        <label>Email</label>
+                        <input type="email"></input>
+                    </div>
+
+                    <div className="signup_label_input">
+                        <label>Password</label>
+                        <input type="password"></input>
+                    </div>
+
+                    <h6> <a href="#"> Forgot password?</a></h6>
+                    <button>Login</button>
+
+                </div>
+                <div className="sign_up_instead">
+                    <p>Are you a new user? <NavLink to="/photographer_sign_up">Sign Up</NavLink></p>
+                </div>
+            </div>
+            )
+        }
+    }
     return (
         <div>
              <div className="heroContainer loginHeroContainer">
-                <div className="opaqueLogin">
+    
+                {loadAlternativeHero()}
 
-                    <div className="login_form">
 
-                        <div className="signup_text_and_logo">
-                            <h2>Photographer Login</h2>
-                            <NavLink to="/"><img  id="logo_img_2" alt="logo" src="../images/logo1.png"></img></NavLink>
-                        </div>
-
-                        <div className="signup_label_input">
-                            <label>Email</label>
-                            <input type="email"></input>
-                        </div>
-
-                        <div className="signup_label_input">
-                            <label>Password</label>
-                            <input type="password"></input>
-                        </div>
-
-                        <h6> <a href="#"> Forgot password?</a></h6>
-                        <button>Login</button>
-
-                    </div>
-                    <div className="sign_up_instead">
-                        <p>Are you a new user? <NavLink to="/photographer_sign_up">Sign Up</NavLink></p>
-                    </div>
-                </div>
                 
             </div>
 
