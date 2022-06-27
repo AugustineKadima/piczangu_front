@@ -19,7 +19,7 @@ export default function PhotographerSideNav(){
                     <NavLink to="/photographer/dashboard"><div className="side_nav_option active">dashboard</div> </NavLink>
                     <NavLink to="/photographer/events"><div className="side_nav_option">Events</div></NavLink>
                     <NavLink to="/photographer/earnings"><div className="side_nav_option active">Earnings</div> </NavLink>
-                    <NavLink to="/photographer/withdraw"> <div className="side_nav_option">Widthraw</div></NavLink>
+                    <NavLink to="/photographer/withdraw"> <div className="side_nav_option">Withdraw</div></NavLink>
 
                 </div>
             </div>
