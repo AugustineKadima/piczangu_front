@@ -18,6 +18,8 @@ import EventDetailsUser from './components/user_dashboard/user_event_details';
 import UserEventsPhotoDetail from './components/user_dashboard/user_events_photo_detail';
 import PhotographerMainPage from './components/photographer_dashboard/photographer_main_page';
 import PhotographerDashboard from './components/photographer_dashboard/photographer_dashboard';
+import PhotographerEvents from './components/photographer_dashboard/photographer_events';
+import PhotographerEarnings from './components/photographer_dashboard/photographer_earnings';
 
 function App() {
   
@@ -42,6 +44,8 @@ function App() {
         <Route path="/user/events/details/photo" element={<UserEventsPhotoDetail />} />
         <Route path="/photographer/home" element={<PhotographerMainPage/>} />
         <Route path="/photographer/dashboard" element={<PhotographerDashboard/>} />
+        <Route path="/photographer/events" element={<PhotographerEvents />} />
+        <Route path="photographer/earnings" element={ <PhotographerEarnings />} />
 
         
       </Routes>
