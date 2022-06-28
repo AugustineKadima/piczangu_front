@@ -1576,3 +1576,42 @@ form .signup_label_input button{
   border-radius: 8px;
   background-color: white;
 }
+
+/* Earnings */
+
+.table_holder{
+  height: auto;
+}
+.earnings_summary div{
+  width: 23%;
+}
+
+.graph_wrapper_photographer table{
+  border: 1px solid black;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.graph_wrapper_photographer table tr th, .graph_wrapper_photographer table tr td{
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px;
+}
+
+.graph_wrapper_photographer table tr:nth-child(even){
+  background-color: whitesmoke;
+}
+.transaction_more_holder{
+  display: flex;
+  justify-content: space-between;
+}
+
+.transaction_more_holder button{
+  padding: 10px 20px;
+  border: 1px solid gray;
+  background-color: white;
+  color: gray;
+  height: 40px;
+  border-radius: 8px;
+  margin: 20px;
+}

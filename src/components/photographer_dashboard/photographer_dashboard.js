@@ -42,7 +42,7 @@ export default function PhotographerDashboard(){
 
                         <div className="photographer_list_recyclerview">
 
-                            <h3 id="daily_downloads_header">Daiy Downloads</h3>
+                            <h3 id="daily_downloads_header">Daily Downloads</h3>
 
                             <div className="graph_holder_photographer_dashboard">
                                 <div className="graph_wrapper_photographer"></div>
