@@ -23,6 +23,8 @@ import PhotographerEarnings from './components/photographer_dashboard/photograph
 import PhotographerWithdraw from './components/photographer_dashboard/photographer_withdraw';
 import PhotographerWithdrawSetAmount from './components/photographer_dashboard/photographer_withdraw_set_amount';
 import PhotographerNewEvent from './components/photographer_dashboard/photographer_new_event';
+import PhotographerEventPhotos from './components/photographer_dashboard/photographer_event_photos';
+import PhotographerEventSinglePhoto from './components/photographer_dashboard/photographer_event_single_photo';
 
 function App() {
   
@@ -51,6 +53,8 @@ function App() {
         <Route path="/photographer/withdraw" element={ <PhotographerWithdraw />} />
         <Route path="/photographer/withdraw/details" element={ <PhotographerWithdrawSetAmount /> } />
         <Route path="/photographer/events/new" element={<PhotographerNewEvent />} />
+        <Route path="/photographer/event/photos" element={ <PhotographerEventPhotos />} />
+        <Route path="/photographer/events/photos/photo" element={<PhotographerEventSinglePhoto/>} />
 
 
         

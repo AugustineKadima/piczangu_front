@@ -11,11 +11,12 @@ export default function PhotographerEvents(){
     const photorgaphyEvents = () =>{
         if(events_created){
             return( 
-            
-                <div className="events_list_user">
-                    {/* <p>EventCodeffdw</p>
-                    <p><BsShareFill/></p> */}
-                </div>
+                <NavLink to="/photographer/event/photos" >
+                    <div className="events_list_user">
+                        <p>EventCodeffdw</p>
+                        <p><BsShareFill/></p>
+                    </div>
+                </NavLink>
             )
         }else{
             return(
@@ -33,6 +34,8 @@ export default function PhotographerEvents(){
 
     return (
         <div>
+         <div className="find_photographer_container">
+
             <PhotographerSideNav />
 
             <div className="find_photographer_wrapper">
@@ -52,7 +55,7 @@ export default function PhotographerEvents(){
 
                     </div>
                 </div>
-
+        </div>
 
         </div>
     )
