@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export default function EventsHome(){
     
-    let list = true;
+    let list = false;
 
     const eventList = () =>{
         if(list){
