@@ -180,6 +180,11 @@ code {
 }
 
 .contentLeftService{
+  border: 15px solid gray;
+  border-radius: 8px;
+}
+
+.contentLeftService{
   color: white;
   border-radius: 8px;
   background-image: url("./images/sell_photos.jpg");
@@ -191,7 +196,7 @@ code {
 }
 
 .serviceTint{
-  border-radius: 8px;
+  /* border-radius: 8px; */
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -225,6 +230,12 @@ code {
   padding: 10px 20px;
   width: 200px;
   bottom: 20px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.contentRightService button:hover{
+  background-color: #EF6D3E;
+  color: white;
 }
 
 .swappedContentRightService{
@@ -240,6 +251,8 @@ code {
   width: 50%; 
   height: 200px;
   border-radius: 8px;
+  border: 15px solid gray;
+  height: auto;
 }
 
 
@@ -249,7 +262,7 @@ code {
   justify-content: center;
   align-items: flex-end;
   width: 50%; 
-  height: 200px;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -272,6 +285,12 @@ code {
   padding: 10px 20px;
   width: 200px;
   bottom: 20px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.swappedContentLeftService button:hover{
+  background-color: #EF6D3E;
+  color: white;
 }
 
 .serviceTwo{
@@ -437,6 +456,16 @@ code {
 .social_icons_footer a{
   margin-right: 40px;
   color: white;
+}
+
+.social_icons_footer a p{
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* About */
 .about_hero_container{
@@ -711,12 +740,16 @@ code {
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding-top: 20px;
 }
 
-.sidenav_select{
+.sidenav_select, .logout{
   margin-top: 40px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sidenav_select a{
@@ -735,6 +768,7 @@ code {
   background-color: #025087;
   margin-bottom: 10px;
   border-radius: 8px;
+  width: 100%;
 } */
 
 .sidenav_select a.active{
@@ -766,15 +800,20 @@ code {
 }
 
 .logout{
-  padding: 10px 20px;
-  background-color: #025087;
-  margin-bottom: 10px;
+  padding: 20px 0px;
+  /* background-color: #025087;  */
+  /* margin-bottom: 10px;
   border-radius: 8px;
-  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red; */
+  width: 50%; 
 }
 
 .logout p{
   margin: 0px;
+  /* width: 100%; */
 }
 
 /* Search Component */
@@ -1652,4 +1691,57 @@ form .signup_label_input button{
   background-color: white;
   border-radius: 8px;
   box-shadow: 0px 0px 5px gray;
+}
+
+
+/* Withdraw details */
+
+.withdrawal_input{
+  padding: 5px;
+  width: 100%;
+}
+
+.withdraw_container{
+  width: 100%;
+  padding: 20px;
+}
+
+#withdrawal_DETAILS_H3{
+  margin: 0px 0px 20px;
+  color: #0F75BC;
+}
+
+.withdrawal_details_input div{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.withdrawal_details_input{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.withdrawal_details_input button{
+  height: 40px;
+  padding: 10px 20px;
+  border: 1px solid #0F75BC;
+  color: #0F75BC;
+  background-color: white;
+  border-radius: 8px;
+  margin-left: 20px;
+  box-shadow: 0px 0px 2px gray;
+}
+
+#confirm_withdraw{
+  padding: 10px 40px;
+  border: 1px solid #EF6D3E;
+  color: #EF6D3E;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px gray;
+  margin-left: 5px;
+  margin-top: 10px;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import PhotographerSideNav from "./photographer_sidenav";
 import SearchPhotographer from "./search_photographer";
+import { NavLink } from "react-router-dom";
 
 
 export default function PhotographerWithdraw(){
@@ -21,7 +22,7 @@ export default function PhotographerWithdraw(){
                             <h2>KSh. 0</h2>
                             <h6>Unpaid Earnings</h6>
                             <p>*Kindly note: You are able to withdraw only when you have at least Kshs. 500 in Unpaid earnings.</p>
-                            <button>Withdraw</button>
+                            <NavLink to="/photographer/withdraw/details" ><button>Withdraw</button></NavLink>
                         </div>
 
                     </div>

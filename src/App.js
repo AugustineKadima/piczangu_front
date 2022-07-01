@@ -21,13 +21,13 @@ import PhotographerDashboard from './components/photographer_dashboard/photograp
 import PhotographerEvents from './components/photographer_dashboard/photographer_events';
 import PhotographerEarnings from './components/photographer_dashboard/photographer_earnings';
 import PhotographerWithdraw from './components/photographer_dashboard/photographer_withdraw';
+import PhotographerWithdrawSetAmount from './components/photographer_dashboard/photographer_withdraw_set_amount';
 
 function App() {
   
   return (
     <div>
       <Routes>
-
         <Route path="/about" element={<About />} />
         <Route path="/" exact element={ <Landing /> } />
         <Route path="/help" element={<Faqs />} />
@@ -46,8 +46,10 @@ function App() {
         <Route path="/photographer/home" element={<PhotographerMainPage/>} />
         <Route path="/photographer/dashboard" element={<PhotographerDashboard/>} />
         <Route path="/photographer/events" element={<PhotographerEvents />} />
-        <Route path="photographer/earnings" element={ <PhotographerEarnings />} />
-        <Route path="photographer/withdraw" element={ <PhotographerWithdraw />} />
+        <Route path="/photographer/earnings" element={ <PhotographerEarnings />} />
+        <Route path="/photographer/withdraw" element={ <PhotographerWithdraw />} />
+        <Route path="/photographer/withdraw/details" element={ <PhotographerWithdrawSetAmount /> } />
+
 
         
       </Routes>
