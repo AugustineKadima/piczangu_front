@@ -4,6 +4,7 @@ import { GoLocation } from "react-icons/go";
 import { BiArrowBack } from "react-icons/bi"
 import { MdOutlineEmail } from "react-icons/md"
 import { BsTelephone } from "react-icons/bs"
+import { MdStarRate } from "react-icons/md"
 
 export default function PhotographerDetailsCard(){
     return (
@@ -23,9 +24,12 @@ export default function PhotographerDetailsCard(){
 
                     </p>
 
-                    <div className="photographer_ratings_user">
-
-
+                    <div className="ratings_container">
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
                     </div>
 
                     <h3 id="rates">Rates</h3>

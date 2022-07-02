@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import Footer from "../components/footer";
-
+import PhotographerFooter from "../components/photographer_footer";
 
 export default function PhotographerLogin(){
 
@@ -109,7 +108,7 @@ export default function PhotographerLogin(){
 
             </div>
 
-            <Footer />
+            <PhotographerFooter />
         </div>
     )
 }

@@ -15,7 +15,7 @@ export default function SearchPhotographer(){
                 
 
                     <div className="user_icon_wrapper">
-                        <NavLink to="/user/profile">
+                        <NavLink to="/photographer/profile">
                             <div className="user_icon_image_container">
                                 
                             </div>

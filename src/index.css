@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-size: 14px;
 }
 body {
   margin: 0;
@@ -42,7 +43,7 @@ code {
 
 #logo_img{
   width: 150px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
 }
 .navs_container_topNav{
@@ -181,7 +182,7 @@ code {
 }
 
 .contentLeftService{
-  border: 15px solid gray;
+  /* border: 15px solid gray; */
   border-radius: 8px;
 }
 
@@ -197,7 +198,7 @@ code {
 }
 
 .serviceTint{
-  /* border-radius: 8px; */
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -252,7 +253,7 @@ code {
   width: 50%; 
   height: 200px;
   border-radius: 8px;
-  border: 15px solid gray;
+  /* border: 15px solid gray; */
   height: auto;
 }
 
@@ -717,7 +718,6 @@ code {
 /* Find Photographer */
 .find_photographer_container{
   display: flex;
-  background-color: red;
 }
 
 
@@ -744,6 +744,7 @@ code {
   justify-content: space-between;
   height: 100%;
   align-items: flex-start;
+  margin-top: 30px;
 }
 
 .logo_dashboard {
@@ -819,19 +820,11 @@ code {
 
 .logout{
   padding: 20px 0px;
-  /* background-color: #025087;  */
-  /* margin-bottom: 10px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red; */
   width: 50%; 
 }
 
 .logout p{
   margin: 0px;
-  /* width: 100%; */
 }
 
 /* Search Component */
@@ -949,10 +942,13 @@ code {
 }
 
 .ratings_container{
-  width: 200px;
-  height: 20px;
-  background-color: yellow;
+  display: flex;
   margin: 10px 0px 0px;
+  color: gray;
+}
+
+.ratings_container p{
+  margin-right: 5px;
 }
 
 
@@ -1211,7 +1207,7 @@ code {
 .upload_photo_holder{
   width: 200px;
   height: 200px;
-  background-color: red;
+  background-color: black;
   border-radius: 8px;
 }
 
@@ -1228,20 +1224,14 @@ code {
   display: flex;
   align-items: center;
   color: gray;
+  margin-bottom: 20px;
 }
 
 .photographer_info_container p{
-  margin-top: 20px;
   font-size: 16px;
 }
 
-.photographer_ratings_user{
-  margin-top: 10px;
-  background-color: green;
-  height: 20px;
-  width: 100px;
 
-}
 
 .photographer_info_container #rates{
   color: #0F75BC;
@@ -1795,4 +1785,16 @@ form .signup_label_input button{
 /* Photographer Event Photos */
 #add_photos{
   margin-right: 20px;
+}
+
+
+/* Photographer Profile */
+.profile_para{
+  margin-right: 20px;
+}
+
+.current_photographer_profile{
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #EF6D3E;
 }

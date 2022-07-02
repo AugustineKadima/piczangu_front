@@ -1,6 +1,7 @@
 import React from "react";
 import { GoLocation } from 'react-icons/go';
 import { NavLink } from "react-router-dom";
+import { MdStarRate } from "react-icons/md"
 
 export default function PhotographerCardUser(){
     return (
@@ -18,7 +19,13 @@ export default function PhotographerCardUser(){
                     </div>
                     <p>I am a photographer based in Nairobi. I shoot weddings, events and personal portraits. I am a photographer based in Nairobi. I shoot weddings, events and personal portraits. I am a photographer based in Nairobi. I shoot weddings, events and personal portraits.  Book me today</p>
 
-                    <div className="ratings_container"></div>
+                    <div className="ratings_container">
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                        <p><MdStarRate/></p>
+                    </div>
                 </div>
             </div>
             </NavLink>
