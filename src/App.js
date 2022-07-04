@@ -26,12 +26,15 @@ import PhotographerNewEvent from './components/photographer_dashboard/photograph
 import PhotographerEventPhotos from './components/photographer_dashboard/photographer_event_photos';
 import PhotographerEventSinglePhoto from './components/photographer_dashboard/photographer_event_single_photo';
 import PhotographerProfile from './components/photographer_dashboard/photographer_profile';
+import PhotographerProfileEdit from './components/photographer_dashboard/photographer_profile_edit';
+import PhotographerPortfolio from './components/photographer_dashboard/photographer_portfolio';
 
 function App() {
   
   return (
     <div>
       <Routes>
+        
         <Route path="/about" element={<About />} />
         <Route path="/" exact element={ <Landing /> } />
         <Route path="/help" element={<Faqs />} />
@@ -41,7 +44,7 @@ function App() {
         <Route path="/photographer_login" element={<PhotographerMainPage />} />
         <Route path="/photographer_sign_up" element={<PhotographerSignUp />} />
         <Route path="/photographers/details" element={<FindPhotographerDetails />} />
-        <Route path="/photographer/portfolio" element={<PhotographerPortfolioView />} />
+        <Route path="/photographer/portfolio/view" element={<PhotographerPortfolioView />} />
         <Route path="/user/profile" element={<UserProfile />} />
         <Route path="/user/profile/edit" element={<EditUserProfile />} />
         <Route path="/user/events" element={<EventsHome/>} />
@@ -57,6 +60,8 @@ function App() {
         <Route path="/photographer/event/photos" element={ <PhotographerEventPhotos />} />
         <Route path="/photographer/events/photos/photo" element={<PhotographerEventSinglePhoto/>} />
         <Route path="/photographer/profile" element={ <PhotographerProfile />} />
+        <Route path="/photographer/profile/edit" element={<PhotographerProfileEdit/>} />
+        <Route path="/photographer/portfolio" element={<PhotographerPortfolio/>} />
 
 
         

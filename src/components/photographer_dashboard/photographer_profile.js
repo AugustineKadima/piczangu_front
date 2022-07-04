@@ -17,8 +17,6 @@ export default function PhotographerProfile(){
                         <div className="top_event_nav">
                             <NavLink to="/photographer/profile"><h4 className="profile_para current_photographer_profile">Profile</h4></NavLink>
                             <NavLink to="/photographer/portfolio"><h4 className="profile_para">Portfolio</h4></NavLink>
-
-
                         </div>
                         <div className="photographer_list_recyclerview">
                         {/* <UserProfileContent /> */}
@@ -52,7 +50,7 @@ export default function PhotographerProfile(){
                                             </div>
                                             <button>Save</button>
                                         </div>                     
-                                        <NavLink to="/user/profile/edit">
+                                        <NavLink to="/photographer/profile/edit">
                                             <button id="btn_edit_user_profile">Edit</button> 
                                         </NavLink>
                                     </div>

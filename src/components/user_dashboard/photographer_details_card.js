@@ -13,7 +13,7 @@ export default function PhotographerDetailsCard(){
                 <div className="photo_upload_container">
 
                     <img type="image" className="upload_photo_holder" alt="photographer_img"/>
-                    <p>Portfolio: <NavLink to="/photographer/portfolio">Click to view</NavLink></p>
+                    <p>Portfolio: <NavLink to="/photographer/portfolio/view">Click to view</NavLink></p>
                 </div>
 
                 <div className="photographer_info_container">
