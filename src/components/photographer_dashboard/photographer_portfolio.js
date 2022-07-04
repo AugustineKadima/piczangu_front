@@ -1,7 +1,8 @@
 import React from "react";
-import { BiArrowBack } from "react-icons/bi";
+import { MdDelete } from "react-icons/md";
 import PhotographerSideNav from "./photographer_sidenav";
 import SearchPhotographer from "./search_photographer";
+import { NavLink } from "react-router-dom";
 
 export default function PhotographerPortfolio(){
     return (
@@ -12,23 +13,24 @@ export default function PhotographerPortfolio(){
                 <div className="find_photographer_wrapper">
                 <div className="find_photographer_content_container">
                     <SearchPhotographer />
+                    <div className="top_event_nav">
+                            <NavLink to="/photographer/profile"><h4 className="profile_para" >Profile</h4></NavLink>
+                            <NavLink to="/photographer/portfolio"><h4 className="profile_para current_photographer_profile" >Portfolio</h4></NavLink>
+                        </div>
                     <div className="photographer_list_recyclerview">
-                    {/* <PhotographerDetailsCard /> */}
                         <div className="portfolio_holder">
                             
                             <div className="display_portfolio_top">
-                                {/* <div className="photographer_profile_and_name_wrapper_view">
-                                    <div className="profile_holder_photographer_view">
-                                        <img src="#" alt="p"/>
-                                    
-                                    </div>
-                                    <h3>Photographer Name</h3>
-                                </div> */}
-                                <button>Edit</button>
+                             
+                                <h3 id="photographer_portfolio_header">My Portfolio</h3>
+                                <NavLink to="/photographer/portfolio/new"><button id="new_portffolio_btn">New</button></NavLink>
                             </div>
 
                             <div className="portfolio_view_section">
-                                <h4>Section Name</h4>
+                                <div className="photographer_portfolio_section_container">
+                                    <h4>Section Name</h4>
+                                    <p><MdDelete/></p>
+                                </div>
                                 <div className="section_photos">
 
                                     <div className="portfolio_photo_holder">
@@ -59,8 +61,6 @@ export default function PhotographerPortfolio(){
                                 </div>
 
                             </div>
-
-                            <button id="backbtn"><BiArrowBack /> Back</button>
 
 
                         </div>

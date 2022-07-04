@@ -1866,3 +1866,31 @@ form .signup_label_input button{
   color: black;
   border: none;
 }
+
+/* Photographer Portfolio */
+#photographer_portfolio_header{
+  color: #0F75BC;
+  font-size: 24px;
+}
+
+#new_portffolio_btn{
+  border: none;
+  background-color: #EEF8FF;
+  color: black;
+}
+
+.photographer_portfolio_section_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.photographer_portfolio_section_container h4{
+  font-size: 16px;
+}
+
+.photographer_portfolio_section_container p{
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
