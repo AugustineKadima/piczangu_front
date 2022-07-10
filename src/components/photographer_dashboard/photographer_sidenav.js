@@ -1,8 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { BiLogOutCircle } from "react-icons/bi"
+import config from "../../config.json"
 
 export default function PhotographerSideNav(){
+
     return (
         <div>
         <div className="sidenav_user_container">
@@ -11,7 +13,7 @@ export default function PhotographerSideNav(){
 
                 <div>
                         <NavLink to="/">
-                                <img  id="logo_img" alt="logo" src="../images/logo3.png"></img>
+                                <img  id="logo_img" alt="logo" src={config.image_url + "/logo3.png"}></img>
                         </NavLink>
 
                     <div className="sidenav_select">

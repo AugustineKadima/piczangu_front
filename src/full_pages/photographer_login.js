@@ -9,7 +9,7 @@ export default function PhotographerLogin(){
     function loadAlternativeHero(){
         if(isLogged){
             return(
-                <div className="opaqueLogin opaque_login_logged">
+                <div className="opaqueLogin opaque_login_logged ">
                 <div className="alternative_phootographer_home">
                     <h1>Upload photos of your events, share with your clients and get booked for photography jobs</h1>
                     <NavLink to="/photographer/dashboard"><button>Go To Dashboard</button></NavLink>
@@ -50,7 +50,7 @@ export default function PhotographerLogin(){
     }
     return (
         <div>
-             <div className="heroContainer loginHeroContainer">
+             <div className="heroContainer loginHeroContainer photographer_hero_login">
     
                 {loadAlternativeHero()}
 

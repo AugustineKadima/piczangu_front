@@ -38,7 +38,7 @@ export default function PhotographerProfile(){
                                         <div className="photographer_type_container">
                                             <ul>
                                                 {photographerTypes.map((photographertype) =>{
-                                                    return <li>{photographertype}</li>
+                                                    return <li key={photographertype}>{photographertype}</li>
                                                 })}
                                             </ul>
                                         </div>        

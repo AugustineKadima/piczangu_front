@@ -1,7 +1,6 @@
 import React from "react";
 import PhotographerSideNav from "./photographer_sidenav";
-import SearchPhotographer from "./search_photographer";
-
+import PhotographerTopBar from "./photographer_top_bar";
 
 export default function PhotographerEarnings(){
     return (
@@ -12,7 +11,7 @@ export default function PhotographerEarnings(){
                 
                 <div className="find_photographer_content_container">
 
-                    <SearchPhotographer />
+                    <PhotographerTopBar />
 
                     <div className="photographer_dashboard_filter">
                         <h2>Summary</h2>

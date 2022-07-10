@@ -1,7 +1,7 @@
 import React from "react";
 import PhotographerSideNav from "./photographer_sidenav";
-import SearchPhotographer from "./search_photographer";
 import { NavLink } from "react-router-dom";
+import PhotographerTopBar from "./photographer_top_bar";
 
 
 export default function PhotographerWithdraw(){
@@ -14,7 +14,7 @@ export default function PhotographerWithdraw(){
                 
                 <div className="find_photographer_content_container">
 
-                    <SearchPhotographer />
+                    <PhotographerTopBar />
 
                 
                     <div className="photographer_withdraw_top">

@@ -9,6 +9,31 @@ import { NavLink } from "react-router-dom";
 
 
 export default function Footer(){
+
+    function navigateToFB(){
+        window.open("https://www.facebook.com/PiczanguApp","_blank")
+        return null
+    }
+
+    function navigateToInsta(){
+        window.open("https://www.instagram.com/piczangu/","_blank")
+        return null
+    }
+
+    function navigateToTwitter(){
+        window.open("https://twitter.com/piczangu","_blank")
+        return null
+    }
+
+    function navigateToLinkedIn(){
+        window.open("https://www.linkedin.com/company/68817489/admin/","_blank")
+        return null
+    }
+
+    function navigateToPiczanguLocation(){
+        window.open("https://maps.app.goo.gl/EMDp9T36shydEVEe6","_blank")
+        return null
+    }
     return (
         <div className="footer_wrapper">
             <div className="footer_container">
@@ -30,7 +55,7 @@ export default function Footer(){
 
                             <div className="footer_item">
                                 <h3>Contact</h3>
-                                <NavLink to={{pathname:"https://maps.app.goo.gl/EMDp9T36shydEVEe6"}} target="_blank"><GoLocation/> <p>Ndemi Road</p> </NavLink>
+                                <NavLink to="" target="_blank"><GoLocation/> <p onClick={navigateToPiczanguLocation}>Ndemi Road</p> </NavLink>
                                 <a><BsTelephone/>  <p>0114168891</p>  </a>
                                 <a><MdOutlineEmail/> <p>info@piczangu.com</p> </a>
                             </div>
@@ -57,10 +82,10 @@ export default function Footer(){
 
                         <div className="social_icons_footer">
                            
-                           <NavLink to=""><p id="facebook"> <FiFacebook/></p></NavLink>
-                           <NavLink to=""><p id="instagram"><BsInstagram/></p></NavLink>
-                           <NavLink to=""><p id="twitter"><FiTwitter/></p></NavLink>
-                           <NavLink to=""><p id="linkedin"><FiLinkedin/></p></NavLink>
+                           <NavLink to="" target="_blank"><p id="facebook" onClick={navigateToFB}> <FiFacebook/></p></NavLink>
+                           <NavLink to="" target="_blank"><p id="instagram" onClick={navigateToInsta}><BsInstagram/></p></NavLink>
+                           <NavLink to="" target="_blank"><p id="twitter" onClick={navigateToTwitter}><FiTwitter/></p></NavLink>
+                           <NavLink to="" target="_blank"><p id="linkedin" onClick={navigateToLinkedIn}><FiLinkedin/></p></NavLink>
                         </div>
                     </div>
                 

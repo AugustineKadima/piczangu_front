@@ -2,6 +2,10 @@ import React from "react";
 
 
 export default function AboutHero(){
+
+    let aboutTxt = `With everything that is going on around us each day, it is important to live in each moment and create as many good memories as we possibly can. We spend most of our time taking photos of pretty much anything, from that well brewed coffee at your favorite cafe, all the way to our very first graduation ceremony. 
+    It is because of this that photo sharing is becoming all the more prevalent in our day to day lives. At Piczangu, we are committed to ensuring that these memories are not lost. Whether you are a photographer or a star in front of the camera, we understand how much these memories mean to you. 
+    `
     return (
         <div>
             <div className="about_hero_container">
@@ -12,7 +16,7 @@ export default function AboutHero(){
 
                     <div className="about_hero_right">
                         <h1>About Us</h1>
-                        <p>We are a company that enables those who attend events get their photos instantly. We elso enable photographers to sell their photos effortlessly. We have a variety of services for both the photographer and the regular user of our website. The services range from being able to sell or buy photos online to securing storage and finding photographers to cover your event</p>
+                        <p>{aboutTxt}</p>
                     </div>
                 </div>
             

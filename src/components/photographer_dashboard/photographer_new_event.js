@@ -1,9 +1,7 @@
 import React from "react";
 import PhotographerSideNav from "./photographer_sidenav";
-import SearchPhotographer from "./search_photographer";
 import { NavLink } from "react-router-dom";
-import { BsShareFill, BsFillCloudDownloadFill } from "react-icons/bs";
-import { MdDelete } from "react-icons/md"
+import PhotographerTopBar from "./photographer_top_bar";
 
 
 
@@ -15,7 +13,7 @@ export default function PhotographerNewEvent(){
             <div className="find_photographer_container">
                 <div className="find_photographer_wrapper">
                     <div className="find_photographer_content_container">
-                        <SearchPhotographer />
+                        <PhotographerTopBar />
 
                         <div className="top_event_nav">
                             <NavLink to="/photographer/events"><h4>Events</h4></NavLink>

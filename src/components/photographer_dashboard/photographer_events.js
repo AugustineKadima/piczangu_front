@@ -2,11 +2,12 @@ import React from "react";
 import PhotographerSideNav from "./photographer_sidenav";
 import { NavLink } from "react-router-dom";
 import { BsShareFill } from "react-icons/bs";
-import SearchPhotographer from "./search_photographer";
+import PhotographerEventsTopBar from "./events_top_bar";
+
 
 export default function PhotographerEvents(){
 
-    let events_created = false
+    let events_created = true
 
     const photorgaphyEvents = () =>{
         if(events_created){
@@ -40,7 +41,7 @@ export default function PhotographerEvents(){
 
             <div className="find_photographer_wrapper">
                     <div className="find_photographer_content_container">
-                        <SearchPhotographer />
+                        <PhotographerEventsTopBar />
                         <div className="photographer_list_recyclerview">
                         {/* <PhotographerDetailsCard /> */}
                             <div className="events_user_wrapper">
