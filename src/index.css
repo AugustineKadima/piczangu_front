@@ -460,6 +460,7 @@ code {
   color: white;  
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer_item a p{

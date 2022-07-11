@@ -20,9 +20,10 @@ export default function AdminSideNav(){
             <NavLink to="/admin/watermarks"><div className="side_nav_option active">Watermarks</div> </NavLink>
             <NavLink to="/admin/homepage_photos"><div className="side_nav_option">Homepage Photos</div></NavLink>
             <NavLink to="/admin/earnings"><div className="side_nav_option active">Earnings</div> </NavLink>
+            <NavLink to="/admin/transfer_costs"> <div className="side_nav_option">Transfer Costs</div></NavLink>
             <NavLink to="/admin/events"><div className="side_nav_option">Events</div></NavLink>
-            <NavLink to="/admin/withdraw"> <div className="side_nav_option">Withdraw</div></NavLink>
-
+            <NavLink to="/admin/accounts"> <div className="side_nav_option">Accounts</div></NavLink>
+            <NavLink to="/admin/tracking"> <div className="side_nav_option">Tracking</div></NavLink>
         </div>
     </div>
 

@@ -34,6 +34,11 @@ export default function Footer(){
         window.open("https://maps.app.goo.gl/EMDp9T36shydEVEe6","_blank")
         return null
     }
+
+    function navigateToTelegram(){
+        window.open("https://t.me/+M9vHxJlR-V4xMjZk","_blank")
+        return null
+    }
     return (
         <div className="footer_wrapper">
             <div className="footer_container">
@@ -48,8 +53,8 @@ export default function Footer(){
                             
                             <div className="footer_item">
                                 <h3>Our Company</h3>
-                                <a>About Us</a>
-                                <a>Community</a>
+                                <NavLink to="/about">About Us</NavLink>
+                                <a onClick={navigateToTelegram}>Community</a>
                                 <a>Media</a>
                             </div>
 
@@ -69,7 +74,7 @@ export default function Footer(){
 
                             <div className="footer_item">
                                 <h3>Help</h3>
-                                <a href="#">FAQs</a>
+                                <NavLink to="/help">FAQs</NavLink>
                             </div>
 
                             <div className="footer_item">

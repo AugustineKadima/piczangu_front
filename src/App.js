@@ -33,6 +33,11 @@ import PiczanguAdminLogin from './components/admin_dashboard/admin_login';
 import AdminDashBoard from './components/admin_dashboard/admin_dashboard';
 import AdminWaterMarks from './components/admin_dashboard/admin_watermarks';
 import HomepagePhotos from './components/admin_dashboard/admin_homepage_photos';
+import AdminEarnings from './components/admin_dashboard/admin_earnings';
+import AdminTransferCosts from './components/admin_dashboard/admin_transfer_costs';
+import AdminEvents from './components/admin_dashboard/admin_events';
+import AdminAccounts from './components/admin_dashboard/admin_accounts';
+import AdminTracking from './components/admin_dashboard/admin_tracking';
 
 
 function App() {
@@ -73,6 +78,11 @@ function App() {
         <Route path="admin/dashboard" element={<AdminDashBoard />} />
         <Route path="/admin/watermarks" element={<AdminWaterMarks />} />
         <Route path="/admin/homepage_photos" element={<HomepagePhotos />} />
+        <Route path="/admin/earnings" element={<AdminEarnings />} />
+        <Route path="/admin/transfer_costs" element={<AdminTransferCosts />} />
+        <Route path="/admin/events" element={<AdminEvents />} />
+        <Route path="/admin/accounts" element={<AdminAccounts />} />
+        <Route path="/admin/tracking" element={<AdminTracking />} />
 
         
       </Routes>
