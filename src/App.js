@@ -30,6 +30,9 @@ import PhotographerProfileEdit from './components/photographer_dashboard/photogr
 import PhotographerPortfolio from './components/photographer_dashboard/photographer_portfolio';
 import PhotographerNewPortfolio from './components/photographer_dashboard/photographer_new_portfolio';
 import PiczanguAdminLogin from './components/admin_dashboard/admin_login';
+import AdminDashBoard from './components/admin_dashboard/admin_dashboard';
+import AdminWaterMarks from './components/admin_dashboard/admin_watermarks';
+import HomepagePhotos from './components/admin_dashboard/admin_homepage_photos';
 
 
 function App() {
@@ -67,6 +70,9 @@ function App() {
         <Route path="/photographer/portfolio" element={<PhotographerPortfolio/>} />
         <Route path="/photographer/portfolio/new" element={<PhotographerNewPortfolio/>} />
         <Route path="/admin/login" element={<PiczanguAdminLogin/>} />
+        <Route path="admin/dashboard" element={<AdminDashBoard />} />
+        <Route path="/admin/watermarks" element={<AdminWaterMarks />} />
+        <Route path="/admin/homepage_photos" element={<HomepagePhotos />} />
 
         
       </Routes>

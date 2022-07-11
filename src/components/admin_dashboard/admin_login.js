@@ -2,6 +2,11 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 export default function PiczanguAdminLogin(){
+
+    function goToAdminDashBoard(){
+        window.replace("/admin/dashboard")
+        return null
+    }
     return (
         <div>
              <div className="signup_wrapper admin_login_wrapper">
@@ -26,7 +31,7 @@ export default function PiczanguAdminLogin(){
 
                     <h6> <a href="#"> Forgot password?</a></h6>
 
-                    <button>Login</button>
+                    <button onClick={goToAdminDashBoard}>Login</button>
 
                 </div>
             </div>
