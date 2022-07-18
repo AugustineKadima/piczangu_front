@@ -38,6 +38,7 @@ import AdminTransferCosts from './components/admin_dashboard/admin_transfer_cost
 import AdminEvents from './components/admin_dashboard/admin_events';
 import AdminAccounts from './components/admin_dashboard/admin_accounts';
 import AdminTracking from './components/admin_dashboard/admin_tracking';
+import AdminEventDetails from './components/admin_dashboard/admin_event_details';
 
 
 function App() {
@@ -83,6 +84,7 @@ function App() {
         <Route path="/admin/events" element={<AdminEvents />} />
         <Route path="/admin/accounts" element={<AdminAccounts />} />
         <Route path="/admin/tracking" element={<AdminTracking />} />
+        <Route path="admin/event/photos" element={<AdminEventDetails/>} />
 
         
       </Routes>
