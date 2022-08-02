@@ -196,11 +196,6 @@ code {
   
 }
 
-br {
-  display: block; /* makes it have a width */
-  content: ""; /* clears default height */
-  margin-top: 0; /* change this to whatever height you want it */
-}
 
 .contentLeftService{
   /* border: 15px solid gray; */
@@ -547,6 +542,7 @@ br {
   /* text-align: center; */
   background-color: #EEF8FF;
   padding: 20px;
+  /* height: 200px; */
   opacity: 0.9;
   /* border-radius: 8px; */
   box-shadow: 0px 0px 5px white;
@@ -1984,4 +1980,14 @@ form .signup_label_input button{
 
 .signup_text_and_logo h2{
   font-size: 24px;
+}
+
+
+br {
+  display: block; /* makes it have a width */
+  content: ""; /* clears default height */
+  margin-top: 0; /* change this to whatever height you want it */
+}
+.about_break{
+  height: 15px;
 }
