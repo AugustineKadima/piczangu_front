@@ -17,7 +17,7 @@ export default function AdminEvents(){
                             <div className="events_user_wrapper">
 
                             {/* {photorgaphyEvents()} */}
-                            <NavLink to="/admin/event/photos" >
+                            <NavLink to="/admin/events/photos" >
                                 <div className="events_list_user">
                                     <p>EventCodeffdw</p>
                                     <p><BsShareFill/></p>

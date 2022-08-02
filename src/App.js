@@ -39,6 +39,7 @@ import AdminEvents from './components/admin_dashboard/admin_events';
 import AdminAccounts from './components/admin_dashboard/admin_accounts';
 import AdminTracking from './components/admin_dashboard/admin_tracking';
 import AdminEventDetails from './components/admin_dashboard/admin_event_details';
+import AdminEventSinglePhoto from './components/admin_dashboard/admin_event_single_photo';
 
 
 function App() {
@@ -84,7 +85,8 @@ function App() {
         <Route path="/admin/events" element={<AdminEvents />} />
         <Route path="/admin/accounts" element={<AdminAccounts />} />
         <Route path="/admin/tracking" element={<AdminTracking />} />
-        <Route path="admin/event/photos" element={<AdminEventDetails/>} />
+        <Route path="admin/events/photos" element={<AdminEventDetails/>} />
+        <Route path="admin/events/photos/photo" element={<AdminEventSinglePhoto />} />
 
         
       </Routes>
